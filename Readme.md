@@ -6,9 +6,9 @@ Automatically installs NameTag3 and downloads the Czech model.
 If you need any other model, feel free to create a pull request.
 
 ##  Running the container
-### Using docker-compose
+### Using docker compose
 1. Clone this repository
-2. Run `docker-compose up -d`
+2. Run `docker compose up -d`
 
 ### Using docker
 1. Clone this repository
