@@ -2,6 +2,12 @@ version: '3.8'
 
 services:
   nametag3:
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+        max-time: "5m"
     build:
       context: .
       dockerfile: Dockerfile
